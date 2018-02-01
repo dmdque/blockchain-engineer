@@ -9,6 +9,7 @@
   - [Bitcoin](#bitcoin)
   - [Ethereum](#ethereum)
     - [Solidity](#solidity)
+- [Resources](#resources)
 
 # Summary
 This living repo is meant to serve as a collection of resources for self-learning about Blockchain. It features a general curriculum to help guide you with what you should be learning about.
@@ -30,6 +31,7 @@ Anyone with moderate programming knowledge and basic cryptography (symmetric and
 This section is for a basic overview of the blockchain space. Skip this if you already know about it.
 - Browse this [list of crypto projects TLDRs](https://github.com/dmdque/crypto-tldr)
 - Subscribe to these subreddits: r/cryptocurrency, r/ethereum, r/dashpay, r/raiblocks
+- https://medium.com/@demluo/the-four-holy-grails-of-cryptocurrencies-e79d6e7d2cd
 
 ## Bitcoin
 - Not everyone is expected to read through the whitepaper, but it can only help you understand more deeply. https://bitcoin.org/bitcoin.pdf
@@ -42,3 +44,8 @@ Ethereum has the most mindshare when it comes to blockchain platforms. It was th
 - https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown
 - https://cryptozombies.io
 - http://truffleframework.com/tutorials/pet-shop
+
+# Resources
+- https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
+- https://github.com/ethereum/EIPs/issues/777
+- http://truffleframework.com/tutorials/debugging-a-smart-contract
