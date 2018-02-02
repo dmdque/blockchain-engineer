@@ -41,9 +41,19 @@ This section is for a basic overview of the blockchain space. Skip this if you a
 Ethereum has the most mindshare when it comes to blockchain platforms. It was the first ans is by far the most advanced platform and has the most developed resources. Other blockchain platforms like Cardano or Neo will improve and may eat into the mindshare, but for now we will focus mostly on Ethereum.
 
 ### Solidity
-- https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown
+- [Introductory tutorial and reference](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
 - https://cryptozombies.io
 - http://truffleframework.com/tutorials/pet-shop
+
+### Read the Docs
+Solidity has strong documentation on [Read the Docs](http://solidity.readthedocs.io/en/latest/), but it's a lot to take in all at once.
+
+Here are the ones you should read as you develop an intermediate level:
+- [Types](http://solidity.readthedocs.io/en/latest/types.html)
+- [Style guide](http://solidity.readthedocs.io/en/latest/style-guide.html)
+
+### Debugging
+- [Truffle debugging tutorial](http://truffleframework.com/tutorials/debugging-a-smart-contract)
 
 # Resources
 - https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
