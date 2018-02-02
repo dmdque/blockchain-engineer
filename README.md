@@ -28,7 +28,7 @@ Anyone with moderate programming knowledge and basic cryptography (symmetric and
 # Curriculum
 
 ## Overview of crypto
-This section is for a basic overview of the blockchain space. Skip this if you already know about it.
+This section is for a basic overview of the Blockchain space. Skip this if you already know about it.
 - Browse this [list of crypto projects TLDRs](https://github.com/dmdque/crypto-tldr)
 - Subscribe to these subreddits: r/cryptocurrency, r/ethereum, r/dashpay, r/raiblocks
 - https://medium.com/@demluo/the-four-holy-grails-of-cryptocurrencies-e79d6e7d2cd
@@ -38,7 +38,7 @@ This section is for a basic overview of the blockchain space. Skip this if you a
 - One of the best demos: https://blockchaindemo.io/ Just click start demo in the top right corner.
 
 ## Ethereum
-Ethereum has the most mindshare when it comes to blockchain platforms. It was the first ans is by far the most advanced platform and has the most developed resources. Other blockchain platforms like Cardano or Neo will improve and may eat into the mindshare, but for now we will focus mostly on Ethereum.
+Ethereum has the most mind share when it comes to blockchain platforms. It was the first and is by far the most advanced platform and has the most developed resources. Other Blockchain platforms like Cardano or Neo will improve and may eat into the mind share, but for now we will focus mostly on Ethereum.
 
 ### Solidity
 - [Introductory tutorial and reference](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
@@ -59,3 +59,6 @@ Here are the ones you should read as you develop an intermediate level:
 - https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
 - https://github.com/ethereum/EIPs/issues/777
 - http://truffleframework.com/tutorials/debugging-a-smart-contract
+
+## Advanced Readings
+- [OpCodes](https://ethereum.gitbooks.io/frontier-guide/content/opcodes,_costs,_and_gas.html)
