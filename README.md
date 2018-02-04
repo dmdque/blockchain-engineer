@@ -59,6 +59,7 @@ Here are the ones you should read as you develop an intermediate level:
 - https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
 - https://github.com/ethereum/EIPs/issues/777
 - http://truffleframework.com/tutorials/debugging-a-smart-contract
+- https://github.com/bkrem/awesome-solidity
 
 ## Advanced Readings
 - [OpCodes](https://ethereum.gitbooks.io/frontier-guide/content/opcodes,_costs,_and_gas.html)
