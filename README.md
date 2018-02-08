@@ -61,5 +61,9 @@ Here are the ones you should read as you develop an intermediate level:
 - http://truffleframework.com/tutorials/debugging-a-smart-contract
 - https://github.com/bkrem/awesome-solidity
 
+## Intermediate Readings
+- [Contracts misconception](https://ethereum.stackexchange.com/questions/185/where-is-the-private-key-for-a-contract-stored/193#193)
+
 ## Advanced Readings
 - [OpCodes](https://ethereum.gitbooks.io/frontier-guide/content/opcodes,_costs,_and_gas.html)
+- [256-bit architecture explained](https://ethereum.stackexchange.com/questions/7382/rationale-behind-256-bit-words-in-evm)
