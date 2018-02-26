@@ -14,13 +14,6 @@
 # Summary
 This living repo is meant to serve as a collection of resources for self-learning about Blockchain. It features a general curriculum to help guide you with what you should be learning about.
 
-## About me
-I've been interested in Blockchain technology ever since I heard about it when it was making news for shattering record highs in late 2013. I was intrigued but focused on other things until the launch of Ethereum, then followed it casually. In 2017, when I had just started working full time for Uber in San Francisco, I followed it much more closely and began diving deeper into the technology. At the beginning of 2018, I decided to jump into the deep end and take the path to becoming a skilled Blockchain engineer.
-
-I've been making notes of the excellent resources I've come across while learning. I'm aggregating them here in hopes that you can benefit from them too.
-
-Good luck!
-
 # Prerequisites
 Anyone with a Computer Science degree is more than ready.
 Anyone with moderate programming knowledge and basic cryptography (symmetric and asymmetric encryption, hashes, etc) is ready
@@ -44,6 +37,7 @@ Ethereum has the most mind share when it comes to blockchain platforms. It was t
 - [Introductory tutorial and reference](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
 - https://cryptozombies.io
 - http://truffleframework.com/tutorials/pet-shop
+- [Solidity by Example](https://github.com/raineorshine/solidity-by-example)
 
 ### Read the Docs
 Solidity has strong documentation on [Read the Docs](http://solidity.readthedocs.io/en/latest/), but it's a lot to take in all at once.
@@ -55,6 +49,9 @@ Here are the ones you should read as you develop an intermediate level:
 ### Debugging
 - [Truffle debugging tutorial](http://truffleframework.com/tutorials/debugging-a-smart-contract)
 
+### Tools
+- [truffle-flattener](https://github.com/alcuadrado/truffle-flattener)
+
 # Resources
 - https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
 - https://github.com/ethereum/EIPs/issues/777
@@ -63,7 +60,14 @@ Here are the ones you should read as you develop an intermediate level:
 
 ## Intermediate Readings
 - [Contracts misconception](https://ethereum.stackexchange.com/questions/185/where-is-the-private-key-for-a-contract-stored/193#193)
+<!--Lots of writing errors, but touches on important concepts.-->
+- [Burning](https://medium.com/@maltabba/hundreds-of-millions-of-dollars-locked-at-ethereum-0x0-address-and-smart-contracts-addresses-how-4144dbe3458a)
+- https://ethereum.stackexchange.com/questions/37221/if-someone-found-a-private-key-to-0x0-would-they-be-able-to-access-all-the-toke
+- https://ethereum.stackexchange.com/questions/2531/common-useful-javascript-snippets-for-geth/3478#3478
 
 ## Advanced Readings
 - [OpCodes](https://ethereum.gitbooks.io/frontier-guide/content/opcodes,_costs,_and_gas.html)
 - [256-bit architecture explained](https://ethereum.stackexchange.com/questions/7382/rationale-behind-256-bit-words-in-evm)
+
+### Cryptography
+- https://www.2uo.de/myths-about-urandom/
