@@ -51,6 +51,7 @@ Here are the ones you should read as you develop an intermediate level:
 
 ### Tools
 - [truffle-flattener](https://github.com/alcuadrado/truffle-flattener)
+- [Solidity REPL](https://github.com/raineorshine/solidity-repl)
 
 # Resources
 - https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
