@@ -1,48 +1,36 @@
-*Path to a self-taught blockchain engineer!*
+# Blockchain Engineer
+*Path to a self-taught blockchain engineer.*
 
-# Contents
-- [Summary](#summary)
-  - [About Me](#about-me)
-- [Prerequisites](#prerequisites)
-- [Curriculum](#curriculum)
-  - [Overview of crypto](#overview-of-crypto)
-  - [Bitcoin](#bitcoin)
-  - [Ethereum](#ethereum)
-    - [Solidity](#solidity)
-- [Resources](#resources)
-
-# Summary
-This living repo is meant to serve as a collection of resources for self-learning about Blockchain. It features a general curriculum to help guide you with what you should be learning about.
-
-# Prerequisites
-Anyone with a Computer Science degree is more than ready.
-Anyone with moderate programming knowledge and basic cryptography (symmetric and asymmetric encryption, hashes, etc) is ready
-
-# Curriculum
+This repo focuses on Ethereum Solidity development.
 
 ## Overview of crypto
-This section is for a basic overview of the Blockchain space. Skip this if you already know about it.
-- Browse this [list of crypto projects TLDRs](https://github.com/dmdque/crypto-tldr)
-- Subscribe to these subreddits: r/cryptocurrency, r/ethereum, r/dashpay, r/raiblocks
-- https://medium.com/@demluo/the-four-holy-grails-of-cryptocurrencies-e79d6e7d2cd
-
-## Bitcoin
-- Not everyone is expected to read through the whitepaper, but it can only help you understand more deeply. https://bitcoin.org/bitcoin.pdf
-- One of the best demos: https://blockchaindemo.io/ Just click start demo in the top right corner.
+This section provides a basic overview of the Blockchain space.
+- [Blockchain visualization](https://blockchaindemo.io/)
+- [List of crypto projects TLDRs](https://github.com/dmdque/crypto-tldr)
+- Subscribe to these subreddits, and browse top posts:
+  - [r/ethereum](https://www.reddit.com/r/ethereum/)
+  - [r/solidity](https://www.reddit.com/r/solidity/)
+  - [r/cryptocurrency](https://www.reddit.com/r/cryptocurrency/)
 
 ## Ethereum
-Ethereum has the most mind share when it comes to blockchain platforms. It was the first and is by far the most advanced platform and has the most developed resources. Other Blockchain platforms like Cardano or Neo will improve and may eat into the mind share, but for now we will focus mostly on Ethereum.
 
-### Solidity
-- [Introductory tutorial and reference](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
-- https://cryptozombies.io
-- http://truffleframework.com/tutorials/pet-shop
-- [Solidity by Example](https://github.com/raineorshine/solidity-by-example)
+### Start here
+- [Quick way to learn Solidity syntax](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
+- [Truffle pet shop](http://truffleframework.com/tutorials/pet-shop)
+- [Truffle](https://github.com/trufflesuite/truffle): The leading framework for Solidity development.
+- [Ganache](https://github.com/trufflesuite/ganache): Local implementation of the Ethereum blockchain that is well integrated with Truffle.
+- [zeppelin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity): Excellent collection of contract implementations. This library should be used rather than implementing functionality yourself whenever possible.
+
+### Tutorials
+- [Quick way to learn Solidity syntax](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
+- [Crypto Zombies](https://cryptozombies.io)
+- [Truffle pet shop](http://truffleframework.com/tutorials/pet-shop)
+- [Solidity by example](https://github.com/raineorshine/solidity-by-example)
+- [Interactions between contracts](https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/)
+- [Debugging a smart contract](http://truffleframework.com/tutorials/debugging-a-smart-contract)
 
 ### Read the Docs
-Solidity has strong documentation on [Read the Docs](http://solidity.readthedocs.io/en/latest/), but it's a lot to take in all at once.
-
-Here are the ones you should read as you develop an intermediate level:
+Eventually you should find the time to skim through [Read the Docs](http://solidity.readthedocs.io/en/latest/) in its entirety. Important topics include:
 - [Types](http://solidity.readthedocs.io/en/latest/types.html)
 - [Style guide](http://solidity.readthedocs.io/en/latest/style-guide.html)
 
@@ -50,25 +38,36 @@ Here are the ones you should read as you develop an intermediate level:
 - [Truffle debugging tutorial](http://truffleframework.com/tutorials/debugging-a-smart-contract)
 
 ### Tools
-- [truffle-flattener](https://github.com/alcuadrado/truffle-flattener)
-- [Solidity REPL](https://github.com/raineorshine/solidity-repl)
+- [Truffle](https://github.com/trufflesuite/truffle): The leading framework for Solidity development.
+- [Ganache](https://github.com/trufflesuite/ganache): Local implementation of the Ethereum blockchain that is well integrated with Truffle.
+- [Etherscan](https://etherscan.io/): Ethereum block explorer.
+- [truffle-flattener](https://github.com/alcuadrado/truffle-flattener): Tool for resolving imports, useful for Etherscan code verification.
+- [Solidity REPL](https://github.com/raineorshine/solidity-repl): Command line REPL for quick one-off tests.
+- [Vim syntax highlighter](https://github.com/tomlion/vim-solidity)
+- [Vim compiler plugin](https://github.com/dmdque/solidity.vim)
+- [Solidity graph generator](https://github.com/raineorshine/solgraph): Graph generator for Solidity contracts.
 
-# Resources
-- https://dappsforbeginners.wordpress.com/tutorials/interactions-between-contracts/
-- https://github.com/ethereum/EIPs/issues/777
-- http://truffleframework.com/tutorials/debugging-a-smart-contract
-- https://github.com/bkrem/awesome-solidity
+### Libraries
+- [zeppelin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity): Excellent collection of contract implementations. This library should be used rather than implementing functionality yourself whenever possible.
+- [solidity-array-utils](https://github.com/dmdque/solidity-array-utils)
+- [solidity-stringutils](https://github.com/Arachnid/solidity-stringutils)
 
-## Intermediate Readings
+### Resources
+- [ERC20 specification](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
+- [Most discussed EIPs](https://github.com/ethereum/EIPs/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
+- [awesome-solidity](https://github.com/bkrem/awesome-solidity): List of resources.
+- [Opcode gas costs](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
+- [Useful snippets](https://ethereum.stackexchange.com/questions/2531/common-useful-javascript-snippets-for-geth/3478#3478)
+
+### Intermediate Readings
 - [Contracts misconception](https://ethereum.stackexchange.com/questions/185/where-is-the-private-key-for-a-contract-stored/193#193)
 <!--Lots of writing errors, but touches on important concepts.-->
 - [Burning](https://medium.com/@maltabba/hundreds-of-millions-of-dollars-locked-at-ethereum-0x0-address-and-smart-contracts-addresses-how-4144dbe3458a)
 - https://ethereum.stackexchange.com/questions/37221/if-someone-found-a-private-key-to-0x0-would-they-be-able-to-access-all-the-toke
-- https://ethereum.stackexchange.com/questions/2531/common-useful-javascript-snippets-for-geth/3478#3478
 
-## Advanced Readings
+### Advanced Readings
 - [OpCodes](https://ethereum.gitbooks.io/frontier-guide/content/opcodes,_costs,_and_gas.html)
 - [256-bit architecture explained](https://ethereum.stackexchange.com/questions/7382/rationale-behind-256-bit-words-in-evm)
 
-### Cryptography
+### Cryptography Readings
 - https://www.2uo.de/myths-about-urandom/
