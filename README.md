@@ -12,14 +12,14 @@ This section provides a basic overview of the Blockchain space.
   - [r/solidity](https://www.reddit.com/r/solidity/)
   - [r/cryptocurrency](https://www.reddit.com/r/cryptocurrency/)
 
-## Ethereum
-
-### Start here
-- [Quick way to learn Solidity syntax](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
+## Recommended curriculum
+- [Quick way to learn Solidity syntax](https://github.com/nemild/learnxinyminutes-docs/blob/master/solidity.html.markdown)
 - [Truffle pet shop](http://truffleframework.com/tutorials/pet-shop)
 - [Truffle](https://github.com/trufflesuite/truffle): The leading framework for Solidity development.
 - [Ganache](https://github.com/trufflesuite/ganache): Local implementation of the Ethereum blockchain that is well integrated with Truffle.
 - [zeppelin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity): Excellent collection of contract implementations. This library should be used rather than implementing functionality yourself whenever possible.
+
+## Ethereum
 
 ### Tutorials
 - [Quick way to learn Solidity syntax](https://github.com/nemild/learnxinyminutes-docs/blob/update-to-latest-solidity/solidity.html.markdown)
@@ -57,6 +57,7 @@ Eventually you should find the time to skim through [Read the Docs](http://solid
 - [Most discussed EIPs](https://github.com/ethereum/EIPs/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc)
 - [awesome-solidity](https://github.com/bkrem/awesome-solidity): List of resources.
 - [Opcode gas costs](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
+- [Opcodes reference](https://github.com/trailofbits/evm-opcodes)
 - [Useful snippets](https://ethereum.stackexchange.com/questions/2531/common-useful-javascript-snippets-for-geth/3478#3478)
 
 ### Intermediate Readings
@@ -71,3 +72,16 @@ Eventually you should find the time to skim through [Read the Docs](http://solid
 
 ### Cryptography Readings
 - https://www.2uo.de/myths-about-urandom/
+
+### Other lists
+
+### Job boards
+- [Upwork](https://www.upwork.com/)
+
+### Venture
+- [Ethereum Community Fund](https://ecf.network/)
+- [Stable Fund](https://stable.fund/)
+- [Blockstack](https://blockstack.org/funding)
+- [Rough Draft Ventures](https://medium.com/rough-draft-ventures/open-call-a-million-dollar-search-for-blockchain-platform-projects-26c9642166ab)
+- [Dash Treasury](https://www.dashcentral.org/budget)
+- [Stellar Partnership Grant Program](https://www.stellar.org/lumens/stellar-partnership-grant-program/)
