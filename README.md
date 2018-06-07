@@ -49,7 +49,7 @@ Eventually you should find the time to skim through [Read the Docs](http://solid
 
 ### Libraries
 - [zeppelin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity): Excellent collection of contract implementations. This library should be used rather than implementing functionality yourself whenever possible.
-- [solidity-array-utils](https://github.com/dmdque/solidity-array-utils)
+- [cryptofin-solidity](https://github.com/cryptofinlabs/cryptofin-solidity)
 - [solidity-stringutils](https://github.com/Arachnid/solidity-stringutils)
 
 ### Resources
